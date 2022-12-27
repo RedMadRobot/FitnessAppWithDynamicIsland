@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8732132A2930E0F800E6B73C /* Arrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873213292930E0F800E6B73C /* Arrows.swift */; };
+		877338BF290426780024CB4F /* DynamicIslandPOCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877338BE290426780024CB4F /* DynamicIslandPOCApp.swift */; };
+		877338C1290426780024CB4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877338C0290426780024CB4F /* ContentView.swift */; };
+		877338C3290426790024CB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877338C2290426790024CB4F /* Assets.xcassets */; };
+		877338EF290427610024CB4F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877338D2290426D80024CB4F /* WidgetKit.framework */; };
+		877338F0290427610024CB4F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877338D4290426D80024CB4F /* SwiftUI.framework */; };
+		877338F3290427610024CB4F /* DynamicInslandAppBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877338F2290427610024CB4F /* DynamicInslandAppBundle.swift */; };
+		877338F7290427610024CB4F /* DynamicInslandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877338F6290427610024CB4F /* DynamicInslandApp.swift */; };
+		877338FA290427630024CB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877338F9290427630024CB4F /* Assets.xcassets */; };
+		877338FC290427630024CB4F /* DynamicInslandApp.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 877338F8290427610024CB4F /* DynamicInslandApp.intentdefinition */; };
+		877338FD290427630024CB4F /* DynamicInslandApp.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 877338F8290427610024CB4F /* DynamicInslandApp.intentdefinition */; };
+		87733900290427630024CB4F /* DynamicInslandAppExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 877338EE290427610024CB4F /* DynamicInslandAppExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		87733905290429B30024CB4F /* FitnessAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87733904290429B30024CB4F /* FitnessAttributes.swift */; };
+		87733906290429BC0024CB4F /* FitnessAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87733904290429B30024CB4F /* FitnessAttributes.swift */; };
+		87733922290A7CFB0024CB4F /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87733921290A7CFB0024CB4F /* DateFormatterExtension.swift */; };
+		8783A41E290FD91B0036E3DD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A41D290FD91B0036E3DD /* DetailView.swift */; };
+		8783A420290FDAE40036E3DD /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A41F290FDAE40036E3DD /* SliderView.swift */; };
+		8783A421290FDBE70036E3DD /* CustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A41B290D9B150036E3DD /* CustomViewModifiers.swift */; };
+		8783A423290FDC500036E3DD /* ComplexityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A422290FDC500036E3DD /* ComplexityView.swift */; };
+		8783A424290FDC560036E3DD /* ComplexityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A422290FDC500036E3DD /* ComplexityView.swift */; };
+		8783A426290FDD090036E3DD /* TrainingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A425290FDD090036E3DD /* TrainingModel.swift */; };
+		87DF304C293E03F4000289D5 /* TrainingPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DF304B293E03F4000289D5 /* TrainingPlayerView.swift */; };
+		87DF304E293E2C1A000289D5 /* background-training.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 87DF304D293E2C1A000289D5 /* background-training.mp4 */; };
+		87E17228292B7FB00067D5CE /* FitnessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E17227292B7FB00067D5CE /* FitnessList.swift */; };
+		87E1722A292B80160067D5CE /* DeeplinkTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E17229292B80160067D5CE /* DeeplinkTarget.swift */; };
+		87E1722B292B80160067D5CE /* DeeplinkTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E17229292B80160067D5CE /* DeeplinkTarget.swift */; };
+		87E1722D292BB7800067D5CE /* FugazOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E1722C292BB7800067D5CE /* FugazOne-Regular.ttf */; };
+		87E1722E292BB7800067D5CE /* FugazOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E1722C292BB7800067D5CE /* FugazOne-Regular.ttf */; };
+		87E17230292BDA390067D5CE /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1722F292BDA390067D5CE /* HeartView.swift */; };
+		87E17231292BDA390067D5CE /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1722F292BDA390067D5CE /* HeartView.swift */; };
+		87E17233292D00F60067D5CE /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E17232292D00F60067D5CE /* PlayerView.swift */; };
+		87E17235292D02F50067D5CE /* background-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 87E17234292D02F50067D5CE /* background-video.mp4 */; };
+		87E17237292E50E20067D5CE /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E17236292E50E20067D5CE /* CounterView.swift */; };
+		87E1723B2930D5E80067D5CE /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E17232292D00F60067D5CE /* PlayerView.swift */; };
+		87E1723D2930D5F90067D5CE /* TrainingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A425290FDD090036E3DD /* TrainingModel.swift */; };
+		87E1723F2930D6310067D5CE /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1723E2930D6310067D5CE /* ActivityViewModel.swift */; };
+		87E172402930D66F0067D5CE /* CustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A41B290D9B150036E3DD /* CustomViewModifiers.swift */; };
+		87E172422930D68C0067D5CE /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E172412930D68C0067D5CE /* AppConstants.swift */; };
+		87E172432930D73E0067D5CE /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E172412930D68C0067D5CE /* AppConstants.swift */; };
+		87E172452930D7B40067D5CE /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E172442930D7B40067D5CE /* BackButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		877338FE290427630024CB4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877338B3290426780024CB4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877338ED290427610024CB4F;
+			remoteInfo = DynamicInslandAppExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		877338E9290426D90024CB4F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				87733900290427630024CB4F /* DynamicInslandAppExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877339202908275C0024CB4F /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		873213292930E0F800E6B73C /* Arrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrows.swift; sourceTree = "<group>"; };
+		877338BB290426780024CB4F /* DynamicIslandPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicIslandPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		877338BE290426780024CB4F /* DynamicIslandPOCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIslandPOCApp.swift; sourceTree = "<group>"; };
+		877338C0290426780024CB4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		877338C2290426790024CB4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		877338D2290426D80024CB4F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		877338D4290426D80024CB4F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		877338EE290427610024CB4F /* DynamicInslandAppExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DynamicInslandAppExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		877338F2290427610024CB4F /* DynamicInslandAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicInslandAppBundle.swift; sourceTree = "<group>"; };
+		877338F6290427610024CB4F /* DynamicInslandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicInslandApp.swift; sourceTree = "<group>"; };
+		877338F8290427610024CB4F /* DynamicInslandApp.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DynamicInslandApp.intentdefinition; sourceTree = "<group>"; };
+		877338F9290427630024CB4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		877338FB290427630024CB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87733904290429B30024CB4F /* FitnessAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAttributes.swift; sourceTree = "<group>"; };
+		87733921290A7CFB0024CB4F /* DateFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtension.swift; sourceTree = "<group>"; };
+		8783A41B290D9B150036E3DD /* CustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifiers.swift; sourceTree = "<group>"; };
+		8783A41D290FD91B0036E3DD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		8783A41F290FDAE40036E3DD /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		8783A422290FDC500036E3DD /* ComplexityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexityView.swift; sourceTree = "<group>"; };
+		8783A425290FDD090036E3DD /* TrainingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModel.swift; sourceTree = "<group>"; };
+		87DF304B293E03F4000289D5 /* TrainingPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlayerView.swift; sourceTree = "<group>"; };
+		87DF304D293E2C1A000289D5 /* background-training.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-training.mp4"; sourceTree = "<group>"; };
+		87E17223291E92C00067D5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		87E17227292B7FB00067D5CE /* FitnessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessList.swift; sourceTree = "<group>"; };
+		87E17229292B80160067D5CE /* DeeplinkTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkTarget.swift; sourceTree = "<group>"; };
+		87E1722C292BB7800067D5CE /* FugazOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FugazOne-Regular.ttf"; sourceTree = "<group>"; };
+		87E1722F292BDA390067D5CE /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
+		87E17232292D00F60067D5CE /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		87E17234292D02F50067D5CE /* background-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-video.mp4"; sourceTree = "<group>"; };
+		87E17236292E50E20067D5CE /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		87E1723E2930D6310067D5CE /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		87E172412930D68C0067D5CE /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		87E172442930D7B40067D5CE /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877338B8290426780024CB4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877338EB290427610024CB4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877338F0290427610024CB4F /* SwiftUI.framework in Frameworks */,
+				877338EF290427610024CB4F /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877338B2290426780024CB4F = {
+			isa = PBXGroup;
+			children = (
+				877338BD290426780024CB4F /* DynamicIslandPOC */,
+				877338F1290427610024CB4F /* DynamicInslandApp */,
+				877338D1290426D80024CB4F /* Frameworks */,
+				877338BC290426780024CB4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		877338BC290426780024CB4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877338BB290426780024CB4F /* DynamicIslandPOC.app */,
+				877338EE290427610024CB4F /* DynamicInslandAppExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877338BD290426780024CB4F /* DynamicIslandPOC */ = {
+			isa = PBXGroup;
+			children = (
+				87E1723C2930D5F20067D5CE /* Model */,
+				87E1723A2930D5E00067D5CE /* Components */,
+				87E172392930D5D30067D5CE /* Helpers */,
+				87E172382930D5BA0067D5CE /* Main Views */,
+				87E17223291E92C00067D5CE /* Info.plist */,
+				877338BE290426780024CB4F /* DynamicIslandPOCApp.swift */,
+				877338C2290426790024CB4F /* Assets.xcassets */,
+				87DF304D293E2C1A000289D5 /* background-training.mp4 */,
+				87E17234292D02F50067D5CE /* background-video.mp4 */,
+				87E172412930D68C0067D5CE /* AppConstants.swift */,
+			);
+			path = DynamicIslandPOC;
+			sourceTree = "<group>";
+		};
+		877338D1290426D80024CB4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				877338D2290426D80024CB4F /* WidgetKit.framework */,
+				877338D4290426D80024CB4F /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		877338F1290427610024CB4F /* DynamicInslandApp */ = {
+			isa = PBXGroup;
+			children = (
+				87E1721E291E914E0067D5CE /* fonts */,
+				877338F2290427610024CB4F /* DynamicInslandAppBundle.swift */,
+				877338F6290427610024CB4F /* DynamicInslandApp.swift */,
+				877338F8290427610024CB4F /* DynamicInslandApp.intentdefinition */,
+				877338F9290427630024CB4F /* Assets.xcassets */,
+				877338FB290427630024CB4F /* Info.plist */,
+			);
+			path = DynamicInslandApp;
+			sourceTree = "<group>";
+		};
+		87E1721E291E914E0067D5CE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				87E1722C292BB7800067D5CE /* FugazOne-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		87E172382930D5BA0067D5CE /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				877338C0290426780024CB4F /* ContentView.swift */,
+				8783A41D290FD91B0036E3DD /* DetailView.swift */,
+				87E17227292B7FB00067D5CE /* FitnessList.swift */,
+				87E17236292E50E20067D5CE /* CounterView.swift */,
+				87DF304B293E03F4000289D5 /* TrainingPlayerView.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		87E172392930D5D30067D5CE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				87733921290A7CFB0024CB4F /* DateFormatterExtension.swift */,
+				8783A41B290D9B150036E3DD /* CustomViewModifiers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		87E1723A2930D5E00067D5CE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				87E1722F292BDA390067D5CE /* HeartView.swift */,
+				87E17232292D00F60067D5CE /* PlayerView.swift */,
+				8783A41F290FDAE40036E3DD /* SliderView.swift */,
+				8783A422290FDC500036E3DD /* ComplexityView.swift */,
+				87E172442930D7B40067D5CE /* BackButton.swift */,
+				873213292930E0F800E6B73C /* Arrows.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		87E1723C2930D5F20067D5CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87733904290429B30024CB4F /* FitnessAttributes.swift */,
+				8783A425290FDD090036E3DD /* TrainingModel.swift */,
+				87E17229292B80160067D5CE /* DeeplinkTarget.swift */,
+				87E1723E2930D6310067D5CE /* ActivityViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		877338BA290426780024CB4F /* DynamicIslandPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877338C9290426790024CB4F /* Build configuration list for PBXNativeTarget "DynamicIslandPOC" */;
+			buildPhases = (
+				877338B7290426780024CB4F /* Sources */,
+				877338B8290426780024CB4F /* Frameworks */,
+				877338B9290426780024CB4F /* Resources */,
+				877338E9290426D90024CB4F /* Embed Foundation Extensions */,
+				877339202908275C0024CB4F /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877338FF290427630024CB4F /* PBXTargetDependency */,
+			);
+			name = DynamicIslandPOC;
+			productName = DynamicIslandPOC;
+			productReference = 877338BB290426780024CB4F /* DynamicIslandPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		877338ED290427610024CB4F /* DynamicInslandAppExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87733901290427630024CB4F /* Build configuration list for PBXNativeTarget "DynamicInslandAppExtension" */;
+			buildPhases = (
+				877338EA290427610024CB4F /* Sources */,
+				877338EB290427610024CB4F /* Frameworks */,
+				877338EC290427610024CB4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicInslandAppExtension;
+			productName = DynamicInslandAppExtension;
+			productReference = 877338EE290427610024CB4F /* DynamicInslandAppExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877338B3290426780024CB4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					877338BA290426780024CB4F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					877338ED290427610024CB4F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 877338B6290426780024CB4F /* Build configuration list for PBXProject "DynamicIslandPOC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 877338B2290426780024CB4F;
+			productRefGroup = 877338BC290426780024CB4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877338BA290426780024CB4F /* DynamicIslandPOC */,
+				877338ED290427610024CB4F /* DynamicInslandAppExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		877338B9290426780024CB4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E1722D292BB7800067D5CE /* FugazOne-Regular.ttf in Resources */,
+				877338C3290426790024CB4F /* Assets.xcassets in Resources */,
+				87E17235292D02F50067D5CE /* background-video.mp4 in Resources */,
+				87DF304E293E2C1A000289D5 /* background-training.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877338EC290427610024CB4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E1722E292BB7800067D5CE /* FugazOne-Regular.ttf in Resources */,
+				877338FA290427630024CB4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877338B7290426780024CB4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877338C1290426780024CB4F /* ContentView.swift in Sources */,
+				87E172422930D68C0067D5CE /* AppConstants.swift in Sources */,
+				8783A41E290FD91B0036E3DD /* DetailView.swift in Sources */,
+				87E17228292B7FB00067D5CE /* FitnessList.swift in Sources */,
+				877338FD290427630024CB4F /* DynamicInslandApp.intentdefinition in Sources */,
+				8783A426290FDD090036E3DD /* TrainingModel.swift in Sources */,
+				87733922290A7CFB0024CB4F /* DateFormatterExtension.swift in Sources */,
+				8783A423290FDC500036E3DD /* ComplexityView.swift in Sources */,
+				8783A421290FDBE70036E3DD /* CustomViewModifiers.swift in Sources */,
+				877338BF290426780024CB4F /* DynamicIslandPOCApp.swift in Sources */,
+				87E17233292D00F60067D5CE /* PlayerView.swift in Sources */,
+				87733905290429B30024CB4F /* FitnessAttributes.swift in Sources */,
+				87E1723F2930D6310067D5CE /* ActivityViewModel.swift in Sources */,
+				8732132A2930E0F800E6B73C /* Arrows.swift in Sources */,
+				87E17230292BDA390067D5CE /* HeartView.swift in Sources */,
+				87E172452930D7B40067D5CE /* BackButton.swift in Sources */,
+				87E1722A292B80160067D5CE /* DeeplinkTarget.swift in Sources */,
+				8783A420290FDAE40036E3DD /* SliderView.swift in Sources */,
+				87E17237292E50E20067D5CE /* CounterView.swift in Sources */,
+				87DF304C293E03F4000289D5 /* TrainingPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877338EA290427610024CB4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877338F7290427610024CB4F /* DynamicInslandApp.swift in Sources */,
+				87733906290429BC0024CB4F /* FitnessAttributes.swift in Sources */,
+				87E1722B292B80160067D5CE /* DeeplinkTarget.swift in Sources */,
+				87E172432930D73E0067D5CE /* AppConstants.swift in Sources */,
+				87E1723B2930D5E80067D5CE /* PlayerView.swift in Sources */,
+				87E172402930D66F0067D5CE /* CustomViewModifiers.swift in Sources */,
+				87E1723D2930D5F90067D5CE /* TrainingModel.swift in Sources */,
+				877338FC290427630024CB4F /* DynamicInslandApp.intentdefinition in Sources */,
+				877338F3290427610024CB4F /* DynamicInslandAppBundle.swift in Sources */,
+				8783A424290FDC560036E3DD /* ComplexityView.swift in Sources */,
+				87E17231292BDA390067D5CE /* HeartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		877338FF290427630024CB4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877338ED290427610024CB4F /* DynamicInslandAppExtension */;
+			targetProxy = 877338FE290427630024CB4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		877338C7290426790024CB4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		877338C8290426790024CB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		877338CA290426790024CB4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42LRQS6X44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicIslandPOC/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmadrobot.DynamicIslandPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		877338CB290426790024CB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42LRQS6X44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicIslandPOC/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmadrobot.DynamicIslandPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87733902290427630024CB4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42LRQS6X44;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicInslandApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DynamicInslandApp;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmadrobot.DynamicIslandPOC.DynamicInslandApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87733903290427630024CB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42LRQS6X44;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicInslandApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DynamicInslandApp;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmadrobot.DynamicIslandPOC.DynamicInslandApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877338B6290426780024CB4F /* Build configuration list for PBXProject "DynamicIslandPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877338C7290426790024CB4F /* Debug */,
+				877338C8290426790024CB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877338C9290426790024CB4F /* Build configuration list for PBXNativeTarget "DynamicIslandPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877338CA290426790024CB4F /* Debug */,
+				877338CB290426790024CB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87733901290427630024CB4F /* Build configuration list for PBXNativeTarget "DynamicInslandAppExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87733902290427630024CB4F /* Debug */,
+				87733903290427630024CB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877338B3290426780024CB4F /* Project object */;
+}
